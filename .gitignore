@@ -1,8 +1,9 @@
 HELP.md
-target/
-logs/
-bin/
+/target/
+/logs/
+/bin/
 !.mvn/wrapper/maven-wrapper.jar
+src/main/resources/application.properties
 
 ### STS ###
 .apt_generated
@@ -20,7 +21,7 @@ bin/
 *.ipr
 
 ### NetBeans ###
-/nbproject/
+/nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
@@ -31,3 +32,4 @@ nbactions.xml
 
 ### Others ###
 .DS_Store
+/nbproject/
