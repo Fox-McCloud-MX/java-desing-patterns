@@ -1,5 +1,10 @@
 package com.mx.desing.patterns.singleton.demo1;
 
+/*
+This method does not need to use the synchronization technique and eager 
+initialization. 
+It is regarded as the standard method to implement singletons in Java.
+*/
 public class MakeACaptainEagerHelper {
 
     private static MakeACaptainEagerHelper _captain;
