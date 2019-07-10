@@ -14,3 +14,8 @@ all its dependents are notified and updated automatically.
 
 **Concept:** A particular class should have only one instance. We will use only that instance whenever we are in need
 
+### Proxy Pattern.
+
+**Definition:** Provide a surrogate or placeholder for another object to control access to it.
+
+**Concept:** We want to use a class which can perform as an interface to something else.
