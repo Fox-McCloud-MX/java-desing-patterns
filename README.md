@@ -28,10 +28,23 @@ all its dependents are notified and updated automatically.
 
 ---
 
-### Decorator Patterns.
+### Decorator Pattern.
 
 **Definition:** Attach additional responsibilities to an object dynamically. Decorators provide a flexible
 alternative to subclassing for extending functionality.
 
 **Concept:** This main principle of this pattern says that we cannot modify existing functionalities but we can extend them.  In other words, this pattern is open for extension but closed for modification. The core concept applies when we want to add some specific functionalities to some specific object instead of to the
 whole class.
+
+---
+
+### Template Method Pattern.
+
+**Definition:** Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. The
+template method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s
+structure.
+
+**Concept:** In a template method, we define the minimum or essential structure of an algorithm. Then we defer some functionalities (responsibilities) to the subclasses. As a result, we can redefine certain steps of an algorithm by keeping the key structure fixed for that algorithm.
+
+---
+
