@@ -57,3 +57,18 @@ strategy pattern lets the algorithm vary independently from client to client.
 
 ---
 
+### Adapter Pattern.
+
+**Definition:** Convert the interface of a class into another interface that clients expect. The adapter
+pattern lets classes work together that couldn’t otherwise because of incompatible interfaces.
+
+GoF tells us about two major kinds of adapters:
+
+A. Class adapters. They generally use multiple inheritance to adapt one interface to
+another. (But we must remember, in Java, multiple inheritance through classes is not
+supported. We need interfaces to implement the concept of multiple inheritance.)
+
+B. Object adapters. They depend on the object compositions.
+
+----
+
