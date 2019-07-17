@@ -99,3 +99,10 @@ interface that makes the subsystem easier to use.
 
 ----
 
+### Factory Pattern.
+
+**Definition:** Define an interface for creating an object, but let subclasses decide which class to
+instantiate. The factory method lets a class defer instantiation to subclasses.
+
+---
+
