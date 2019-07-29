@@ -188,3 +188,20 @@ But to achieve this, we need to compensate for the complexity of the system. As 
 
 ---
 
+### Visitor Pattern.
+
+**Definition:** Represent an operation to be performed on the elements of an object structure. The visitor
+pattern lets you define a new operation without changing the classes of the elements on which it operates.
+
+**Concept:** This pattern helps us to add new functionalities to an existing object structure in such a way that the old structure remains unaffected by these changes. So, we can follow the open/close principle here (i.e., extension allowed but modification disallowed for entities like class, function, modules, etc.).
+
+---
+
+### Interpreter Pattern.
+
+**Definition:** Given a language, define a representation for its grammar along with an interpreter that uses the representation to interpret sentences in the language.
+
+**Concept:** Here, in general, we define a grammatical representation for a language and provide an interpreter to deal with that grammar (e.g., in our example we have interpreted a string input as binary data). In simple words, this pattern says how to evaluate sentences in a language.
+
+---
+
